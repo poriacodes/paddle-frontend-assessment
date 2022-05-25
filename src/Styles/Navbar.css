@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.metricks{
+    background-image: url(../Assets/bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#metricks{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo{
+    margin-left:70px ;
+    margin-top: 30px;
+}
+
+.logo img{
+    width: 100px;
+    height: 50px;  
+}
+
+.logo p{
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+.ul{
+    display: flex;
+    margin: 40px;
+    
+}
+
+.item{
+    display: flex;
+}
+
+.item li{
+    margin: 0 1.5rem;
+    list-style: none;
+    font-size: 20px;
+}
+
+.item li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 600;
+}
+
+
