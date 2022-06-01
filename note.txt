@@ -1,0 +1,30 @@
+
+    /* .ul {
+        display: flex;
+        height: 300px;
+        position: absolute;
+        opacity: 0;
+        left: -100px;
+        transition: all 0.5s ease;
+        flex-direction: column;
+        list-style-type: none;
+        width:50%;
+        grid-gap: 10px;
+        padding-top: 30px;
+        margin: 0;
+   
+      } */
+/* 
+      background-color: hsl(0, 0%, 100%, 0.1);
+      backdrop-filter: blur(1rem);
+     */
+    
+      /* .ul.active {
+        background-color: #000000;
+        background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        align-content: left;
+        
+      } */

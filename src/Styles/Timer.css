@@ -1,0 +1,72 @@
+.date-countdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .timer-container ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+  }
+  
+  .timer-container ul li {
+    background: #ffffff;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 0.5rem;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .timer-container ul li span{
+    font-size: 2rem;
+    text-align: center;
+  
+  }
+
+  @media (max-width: 420px){
+
+    .date-countdown{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+  }
+
+      
+  .timer-container ul li {
+    background: #ffffff;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 0.5rem;
+    color: black;
+    text-align: center;
+    padding: 0.7rem;
+  }
+
+    
+  .timer-container ul li span{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+  
+  }
+
+  }
+
+  
