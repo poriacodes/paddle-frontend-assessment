@@ -42,10 +42,10 @@ z-index: 999;
     background: #213F72 no-repeat padding-box;
     opacity: 1;
     position: relative;
-    left: 450px;
-    top: -60px;
-    width: 100px;
-    height: 80px;
+    left: 400px;
+    top: -70px;
+    width: 85px;
+    height: 85px;
     border-radius: 50%;
  }
 
@@ -58,7 +58,7 @@ z-index: 999;
      color: white;
      font-size: 25px;
      display: block;
-     margin: 100px auto 90px auto ;
+     margin: 90px auto 90px auto ;
      text-align: center;  
 }
 
@@ -105,5 +105,24 @@ position: relative;
 margin-left: 90px;
 margin-top: 10px;
 
+}
+
+.contactBtn{
+    display: block;
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+
+.contactBtn a{
+    outline: none;
+    background-color: #271AC1;
+    border-radius: 70px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    text-decoration: none;
+   
 }
 

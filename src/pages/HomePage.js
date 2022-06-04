@@ -1,5 +1,9 @@
 import React from 'react'
-import Navbar from "../Components/Navbar"
+import Header from "../Components/Header"
+import ComingSoon from "../Components/ComingSoon"
+import Timer from "../Components/Timer"
+import Form from "../Components/Form"
+import Footer from '../Components/HomeFooter'
 
 
 const HomePage = () => {
@@ -7,7 +11,11 @@ const HomePage = () => {
     return (
         
         <div>   
-            <Navbar />
+            <Header />
+            <ComingSoon/>
+            <Timer/>
+            <Form/>
+            <Footer/>
          
         </div>
     )

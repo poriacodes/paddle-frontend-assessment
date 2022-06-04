@@ -4,7 +4,8 @@ import HomePage from "../src/pages/HomePage"
 import About from "../src/pages/About"
 import Blog from "../src/pages/Blog"
 import Contact from "../src/pages/Contact"
-import Modal from "../src/pages/Modal"
+
+
 
 
 

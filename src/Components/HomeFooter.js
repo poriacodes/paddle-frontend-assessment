@@ -1,121 +1,13 @@
-import React, { useState, useRef } from 'react'
+import React from 'react'
+import "../Styles/Footer.css"
 import { Link } from 'react-router-dom'
-import "../Styles/Navbar.css"
-import Logo from "../Assets/metricks-white.png"
-import { ReactComponent as CloseMenu } from "../Assets/Cancel.svg";
-import { ReactComponent as MenuIcon } from "../Assets/Menu.svg";
-import Timer from '../Components/Timer';
 
-
-
-
-
-
-const Navbar=()=> {
-
-  //mobile responsiveness
-
-  const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
-
+const HomeFooter=()=>{
 
   return (
-
-    <div className='metricks'>
-
-      <div className="header">
-      
-      <a href className='logo'>
-       <img src={Logo} alt='metricksLogo'/>
-       <p>METRICKS</p>
-      </a>
-
-      <nav className='item'>
-
-        <ul className={click ? "ul active" : "ul"}>
-
-          <li 
-             className="option"
-                onClick={() => {
-                  closeMobileMenu();
-          }}>
-
-            <Link to="/about" > ABOUT US </Link>
-          </li>
-
-          <li
-           className="option"
-           onClick={() => {
-             closeMobileMenu();
-          }} >
-            <Link to="/blog"> BLOG </Link>
-          </li>
-
-          <li
-            className="option"
-            onClick={() => {
-              closeMobileMenu();
-           }}>
-         <Link to="/contact"> <button> CONTACT US </button> </Link> 
-          </li>
-
-        </ul>
-
-      </nav>
-
-      
-      <div className="mobile-menu" onClick={handleClick}>
-            {click ? (
-              <CloseMenu className="menu-icon" />
-            ) : (
-              <MenuIcon className="menu-icon" />
-            )}
-          </div>
-
-    </div>
-
-    
-    <div className='circle'></div>
-
-    <div className='hero'>
-
-      <h1>SOMETHING AWESOME IS <br/> COMING SOON</h1>
-
-      <div className='circle2'></div>
-
-      <p>Your all-in-one affiliate marketing tracking software <span>track, automate</span> and <br/> <span>optimize</span> your campaign</p>
-
-      
-      <div className='date-countdown'>
-      <Timer />
-      </div>
-
-      <div className='mainName'>
-
-      <form className='otherName'>
-      
-      <input type="text" id="fName" name="name" placeholder="First Name."/>
-      
-      <input type="text" id="lName" name="name"  placeholder="Last Name."/>
-
-      </form>
-
-      </div>
-
-
-      <div className='mainBtn'>
-
-        <div className='mainBtn1'><input type="text" id='mainBtn1' name="name" placeholder="Enter your email address..."/></div>
-        <div className='mainBtn2'>JOIN OUR WAITING LIST</div>
-
-      </div>
-
-      <div className='circle3'></div>
-      
-
-      <div className='footer'>
+    <>
+        
+        <div className='footer'>
 
         <div className='socialMedia'>
 
@@ -159,27 +51,26 @@ const Navbar=()=> {
         </div>
 
         <div className='terms'>
+          <Link to="">
           <h4>Terms of service</h4>
+          </Link>
 
+          <Link to=""> 
           <h4>Privacy Policy</h4>
+          </Link>
         </div>
         
-        <div className='Copyright'>
-        <p>Copyright 2021 @ Peddle Technologies. All Rights Reserved.</p>
-        </div>
-
-        <div className='Copyright2'>
-        <p>Copyright 2021 @ Peddle Technologies. <br/> All Rights Reserved.</p>
-        </div>
+        <p className='Copyright'>Copyright 2021 @ Peddle Technologies. All Rights Reserved.</p>
+      
+        <p className='Copyright2'>Copyright 2021 @ Peddle Technologies. <br/> All Rights Reserved.</p>
+      
       
               
       </div>
   
-    </div>
 
-
-    </div>
+    </>
   )
 }
 
-export default Navbar
+export default HomeFooter

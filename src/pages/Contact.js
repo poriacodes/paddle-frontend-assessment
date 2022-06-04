@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "../Styles/Contact.css"
 
 const Contact=()=> {
@@ -48,8 +49,11 @@ const Contact=()=> {
          Tell us what you need help with
          <textarea type="text" id='textBox' name="subject" placeholder="Write something.."/>
          </label>
-    
-          </form>
+
+        
+         <div className='contactBtn'><Link to="/">Send Now</Link></div>
+        </form>
+
 
         </div>
 
