@@ -53,11 +53,11 @@ const mainFooter=()=>{
 </div>
 
 <div className='Terms'>
-  <Link to="">
+  <Link to="/termsOfService">
   <h4>Terms of service</h4>
   </Link>
 
- <Link to="">
+ <Link to="/privacy">
  <h4>Privacy Policy</h4>
  </Link>
 

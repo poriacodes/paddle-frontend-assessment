@@ -1,13 +1,13 @@
 import React , { useState, useRef} from 'react'
 import { Link } from 'react-router-dom'
-import "../Styles/Header.css"
+import "../Styles/whiteHeader.css"
 import Logo from "../Assets/metricks-white.png"
 import { ReactComponent as CloseMenu } from "../Assets/Cancel.svg";
 import { ReactComponent as MenuIcon } from "../Assets/Menu.svg";
 import Dropdown from "../Components/Dropdown"
 
 
-const Header =()=> {
+const whiteHeader =()=> {
 
       //mobile responsiveness
 
@@ -147,4 +147,4 @@ const Header =()=> {
   )
 }
 
-export default Header
+export default whiteHeader

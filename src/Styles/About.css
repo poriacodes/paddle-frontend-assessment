@@ -82,6 +82,10 @@
     
 }
 
+.aboutContent2{
+    display: none;
+}
+
 .aboutUsContent{
     display: flex;
     justify-content: center;
@@ -92,6 +96,9 @@
     font-size: 50px;
 }
 
+.aboutUsContentMobile{
+    display: none;
+}
 
 .aboutUs3{
     display: flex;
@@ -138,6 +145,14 @@
     display: block;
     margin: 30px auto;
     width: 50%;
+}
+
+.pride2{
+    display: none;
+}
+
+.pride3{
+    display: none;
 }
 
 .dottedLines{
@@ -199,6 +214,14 @@
     width: 65%;
 }
 
+.leverage2{
+    display: none;
+}
+
+.leverage3{
+    display: none;
+}
+
 
 .square3{
     position: relative;
@@ -211,6 +234,14 @@
     float: right;
 }
 
+.square3Mobile{
+    display: none;
+}
+
+.mobileQuestion{
+    display: none;
+
+}
 
 .question{
     background-color: hsl(0, 0%, 100%, 0.1);
@@ -231,6 +262,7 @@
     font-size: 40px;
 }
 
+
 .questionP{
     display: block;
     margin: 10px auto;
@@ -242,6 +274,11 @@
     color: white;
     text-align: left;
     font-size: 20px;
+}
+
+
+.contactArrow a{
+    text-decoration: none;
 }
 
 .contactArrow {
@@ -264,4 +301,328 @@
 
 .aboutFooter{
     margin-top: 35px;
+}
+
+
+
+
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+
+
+ 
+}
+
+
+/* Mobile */
+
+@media (max-width: 420px){
+
+    .aboutUs{
+        height: 315vh;
+    }
+    
+.square{
+    position: relative;
+    background: transparent linear-gradient(180deg, #7F1E7B 0%, #19073B 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    top: 50px;
+    left: 100px;
+    width: 200px;
+    height: 250px;
+}
+
+.AboutUs{
+    display: block;
+}
+
+.AboutUs1{
+    background-color: hsl(0, 0%, 100%, 0.1);
+    backdrop-filter: blur(0.6rem);
+    width: 100%;
+    height: 55vh;
+    position: relative;
+}
+
+.aboutLine{
+    display: flex ;
+    justify-content: center;
+    margin-top: 35px;
+    position: relative;
+    left:0px;
+}
+
+.line{
+   height: 2px;
+   width: 6%;
+   z-index: 999;
+   margin-top: 23px;
+   background-color: white;
+}
+
+.aboutLine p{
+    color: white;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.AboutUs1 h1{
+    left: 0px;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    display:flex;
+    justify-content: center;
+}
+
+.aboutCircle{
+    background: transparent linear-gradient(177deg, #213F72 0%, #1D0040 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+    left: 300px;
+    top: -525px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.AboutUs2{
+    width: 85%;
+}
+
+.aboutContent{
+    display: none;
+}
+
+.aboutContent2{
+    color: rgb(192, 186, 186);;
+    display: block;
+    font-size: 25px;
+    font-weight: 900;
+    position: relative;
+    top: -500px;
+    left: 20px;
+}
+
+.aboutUsContent{
+    display: none;
+}
+
+.aboutUsContentMobile{
+    display: block;
+    color: white;
+    margin: -400px auto 50px auto;
+    width: 90%;
+    font-size: 30px;
+}
+
+.aboutUs3{
+    display: block;
+}
+
+
+
+.aboutUs3_1{
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+   
+}
+
+.whyUs{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    width: 70%;
+}
+
+.one{
+    border-bottom: 2px solid white;
+    width: 10%;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin-top: -15px;  
+}
+
+.h1 {
+     color: white;
+     margin-left: 30px; 
+ }
+
+ .pride{
+     display: none;
+ }
+
+ .pride1{
+     display: none;
+ }
+
+.pride2{
+    color: rgb(192, 186, 186);
+    text-align: left;
+    font-size: 20px;
+    line-height: 35px;
+    display: block;
+    font-weight: 700;
+}
+
+.pride3{
+    display: block;
+    margin: 30px auto;
+    width: 70%;
+}
+
+.dottedLines{
+    display: block;
+    margin: 50px auto 30px auto;
+    width: 50%;  
+}
+
+.dottedLines img{
+    width: 200px;
+    height: 100px;
+} 
+
+.aboutUs3_2{
+    width: 100%;
+}
+
+
+.square2{
+    position: relative;
+    background: transparent linear-gradient(180deg, #213F72 0%, #19073B 100%) 0% 0% no-repeat padding-box;
+    opacity: 1.5;
+    top: 90px;
+    left: 100px;
+    width: 200px;
+    height: 250px;
+}
+
+ 
+.gwY{
+        background-color: hsl(0, 0%, 100%, 0.1);
+        backdrop-filter: blur(0.5rem);
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        top: -300px; 
+}
+
+
+.gwYOne{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.leverage{
+    display: none;
+}
+
+.leverage1{
+    display: none;
+}
+
+.leverage2{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 900;
+    display: block;
+
+}
+
+.leverage3{
+    display: block;
+    margin: 30px auto;
+    width: 80%;
+}
+
+
+.square3{
+    display: none;
+}
+
+.square3Mobile{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    background: transparent linear-gradient(180deg, #7F4129 0%, #1C0C28 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 250px;
+    height: 200px;
+    top: -200px;
+}
+
+.question{
+display: none;
+}
+
+.mobileQuestion{
+    display: block;
+    margin: 0px auto;
+     backdrop-filter: blur(0.6rem); 
+    background: transparent;
+    width: 90%;
+    top: -350px;
+    height: 5vh;
+    position: relative;
+}
+
+.mobileQuestionContent{
+    width: 100%;  
+}
+
+.mobileQuestionContent h2{
+    color: #FF00F7;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+
+.mobileQuestionP{
+    display: block;
+    margin: 60px auto 10px auto;
+    width: 100%;
+}
+
+
+.mobileQuestionContent p{
+    color: white;
+    text-align: left;
+    font-size: 21px;
+}
+
+
+.mobileContactArrow {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   margin-top: 50px;
+}
+
+.mobileContactArrow p{
+    color: #FF00F7;
+}
+
+.mobileContactArrow svg{
+   width: 60px;
+   height: 30px;
+   margin-top: 20px;
+}
+
+.mobileContactArrow a{
+    text-decoration: none;
+}
+
+
+.aboutFooter{
+    margin-top: 0px;
+}
+
+
 }

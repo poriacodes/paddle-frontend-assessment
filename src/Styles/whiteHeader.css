@@ -52,10 +52,10 @@
 
  .option button{
   outline: none;
-  background-color: #271AC1;
+  background-color: #ffffff;
   border-radius: 70px;
   padding: 10px 20px;
-  color: white;
+  color: black;
   font-size: 15px;
   border: none;
   cursor: pointer;
@@ -205,10 +205,10 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .mobileOption button{
       outline: none;
-      background-color: #271AC1;
+      background-color: #ffffff;
       border-radius: 70px;
       padding: 10px 20px;
-      color: white;
+      color: black;
       font-size: 15px;
       border: none;
       margin-left: -10px;

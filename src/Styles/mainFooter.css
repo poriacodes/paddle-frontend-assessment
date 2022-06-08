@@ -30,3 +30,77 @@
     margin-top: 5px;
     color: white;
   }
+
+  a{
+    text-decoration: none;
+  }
+
+  a:hover h4{
+   color: gray;
+  }
+
+  
+/* Big Screen */
+ 
+ @media screen 
+ and (min-device-width: 1200px) 
+ and (max-device-width: 2560px) 
+ and (-webkit-min-device-pixel-ratio: 1) { 
+
+
+ }
+ 
+
+ /* Tablet */
+ 
+ @media screen and (max-width: 768px) {
+
+ 
+  
+  }
+
+
+  /* Mobile */
+  
+@media (max-width: 420px){
+
+     .socialMedia{
+       display: flex;
+       justify-content: center;
+       padding-top: 50px;
+     }
+     
+     .socialMedia svg{
+       width: 20px;
+       height: 20px;
+       padding: 7px;
+      
+     }
+     
+     .terms{
+       display: flex;
+       justify-content: center;
+     }
+     
+     .terms h4{
+       margin-right: 10px;
+       color: white;
+       margin-top: 20px;
+     }
+     
+     .Copyright{
+       display: none;
+     }
+     
+     .Copyright2{
+    text-align: center;
+     margin-top: -10px;
+     font-size: 13px;
+     display: block;
+     color: white;
+     
+     }
+       
+}
+
+ 

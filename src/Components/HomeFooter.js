@@ -1,6 +1,7 @@
 import React from 'react'
-import "../Styles/Footer.css"
+import "../Styles/HomeFooter.css"
 import { Link } from 'react-router-dom'
+
 
 const HomeFooter=()=>{
 
@@ -51,11 +52,11 @@ const HomeFooter=()=>{
         </div>
 
         <div className='terms'>
-          <Link to="">
+          <Link to="/termsOfService">
           <h4>Terms of service</h4>
           </Link>
 
-          <Link to=""> 
+          <Link to="/privacy"> 
           <h4>Privacy Policy</h4>
           </Link>
         </div>

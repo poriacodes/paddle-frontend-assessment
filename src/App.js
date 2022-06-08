@@ -2,10 +2,11 @@ import React from "react"
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import HomePage from "../src/pages/HomePage"
 import About from "../src/pages/About"
-import Blog from "../src/pages/Blog"
 import Contact from "../src/pages/Contact"
-
-
+import News from "../src/pages/News"
+import Learning from "../src/pages/Learning"
+import Terms from "../src/pages/termsOfService"
+import Privacy from "./pages/Privacy";
 
 
 
@@ -17,8 +18,11 @@ const App = () => {
 
       <Route path='/' element={<HomePage/>} />
       <Route path='/about' element={<About/>} />
-      <Route path='/blog' element={<Blog/>} />
       <Route path='/contact' element={<Contact/>} />
+      <Route path='/new' element={<News/>} />
+      <Route path='/learning' element={<Learning/>} />
+      <Route path='/termsOfService' element={<Terms/>} />
+      <Route path='/privacy' element={<Privacy/>} />
 
       </Routes>
     </Router>
