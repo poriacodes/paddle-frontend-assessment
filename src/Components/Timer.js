@@ -21,7 +21,7 @@ class Timer extends Component {
     const countdownTimer = setInterval(() => {
       this.setState({ now: new Date().getTime() });
       // constants
-      this.setState({ end: new Date('June 01, 2022 00:00:00').getTime() });
+      this.setState({ end: new Date('June 30, 2022 00:00:00').getTime() });
       const difference = this.state.end - this.state.now;
 
       if (difference < 0) {

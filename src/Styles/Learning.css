@@ -1,0 +1,316 @@
+.learning{
+    background-image: url(../Assets/bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 285vh;
+    background-repeat: no-repeat;
+
+}
+
+.learningSquare{
+    position: relative;
+    background: transparent linear-gradient(180deg, #7F1E7B 0%, #19073B 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    top: 50px;
+    left: 200px;
+    width: 200px;
+    height: 250px;
+}
+
+.Learning{
+    display: flex;
+}
+
+.Learning1{
+    background-color: hsl(0, 0%, 100%, 0.1);
+    backdrop-filter: blur(0.6rem);
+    width: 55%;
+    height: 70vh;
+    position: relative;
+    top: -250px;
+}
+
+.learningLine{
+    display: flex ;
+    justify-content: center;
+    margin-top: 90px;
+    position: relative;
+    left: 170px;
+}
+.Line{
+   height: 2px;
+   width: 6%;
+   z-index: 999;
+   margin-top: 23px;
+   background-color: white;
+}
+
+.learningLine p{
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.Learning1 h1{
+    position: relative;
+    left: 520px;
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.learningCircle{
+    background: transparent linear-gradient(177deg, #213F72 0%, #1D0040 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+    left: 600px;
+    top: -100px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.learning2{
+    width: 80%;
+}
+
+.search{
+    margin-left: 400px;
+    margin-top: 30px;
+
+}
+
+#search{
+    border : 0px solid gray;
+    border-bottom-width : 1px;
+    background-color : transparent;
+    width: 80%;
+    color: #ffffff;
+    padding-bottom: 7px;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .search svg{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: -25px;
+   
+  }
+
+
+  .learningFeatures{
+        display: flex;
+        margin-top: -130px;
+  }
+
+  .buttonContent{
+    width: 60%;
+    border: 1px solid #E4E4E4;
+    opacity: 1;
+    margin: 5px 0px 0px 100px;
+    height: 700px;
+    color: white;
+  }
+
+  .buttonContent p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding-top: 100px;
+  }
+
+  .buttonContent-inner{
+    display: none;
+    padding: 0 24px;
+
+    }
+
+    .active-content{
+        display: block;
+    }
+
+  .featureButton{
+    width: 30%;
+  
+  }
+
+  .featureBtn{ 
+    display: block;
+    color: white; 
+    border: 1px solid #E4E4E4;
+    opacity: 1;
+    padding: 20px 30px;
+    margin: 5px 0px 0px 40px;
+    background: transparent linear-gradient(180deg, #210045 0%, #0C0123 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #E4E4E4;
+    opacity: 1;
+    width: 75%;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .featureBtn button{
+    font-size: 25px;
+  }
+
+  .featureButton button:hover{
+    color: #FF00F7;
+  }
+
+
+  .learningFooter{
+    margin-top: 80px;
+  }
+
+ 
+
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+
+  .learningCircle{
+    background: transparent linear-gradient(177deg, #213F72 0%, #1D0040 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+    left: 180px;
+    top: -200px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.Learning h1{
+    position: relative;
+    left: 300px;
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 420px){
+
+  .learning{
+    height: 270vh;
+    width: 100%;
+}
+
+.learningSquare{
+position: relative;
+background: transparent linear-gradient(180deg, #7F1E7B 0%, #19073B 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+top: 50px;
+left: 100px;
+width: 200px;
+height: 250px;
+}
+
+.Learning{
+display: block;
+}
+
+.Learning1{
+background-color: hsl(0, 0%, 100%, 0.1);
+backdrop-filter: blur(0.6rem);
+width: 100%;
+height: 40vh;
+margin-top: 50px;
+position: relative;
+}
+
+.learningLine{
+display: flex ;
+justify-content: center;
+margin-top: 35px;
+position: relative;
+left:0px;
+}
+
+.Line{
+height: 2px;
+width: 6%;
+z-index: 999;
+margin-top: 23px;
+background-color: white;
+}
+
+.learningLine p{
+color: white;
+text-align: center;
+margin-left: 0px;
+}
+
+.Learning1 h1{
+left: 0px;
+color: white;
+font-weight: 800;
+font-size: 30px;
+display:flex;
+justify-content: center;
+}
+
+.learningCircle{
+background: transparent linear-gradient(177deg, #213F72 0%, #1D0040 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+position: relative;
+left: 280px;
+top: -450px;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+}
+
+.Learning2{
+width: 100%;
+}
+
+.buttonContent{
+  width: 60%;
+  border: 1px solid #E4E4E4;
+  opacity: 1;
+  margin: 0px 0px 0px 10px;
+  height: 700px;
+  color: white;
+}
+
+
+.featureButton{
+  width: 35%;
+
+}
+
+.featureBtn{ 
+  display: block;
+  color: white; 
+  border: 1px solid #E4E4E4;
+  opacity: 1;
+  padding: 20px 30px;
+  margin: 0px 0px 0px 0px;
+  background: transparent linear-gradient(180deg, #210045 0%, #0C0123 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid #E4E4E4;
+  opacity: 1;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.buttonContent p{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  padding-top: 60px;
+}
+
+.learningFooter{
+  margin-top: 70px;
+}
+
+
+}

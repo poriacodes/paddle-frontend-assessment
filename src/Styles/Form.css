@@ -89,7 +89,16 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 @media screen and (max-width: 768px) {
 
-
+  .circle3{
+    background: transparent linear-gradient(177deg, #7F4129 0%, #1C0C28 100%) 0% 0% no-repeat padding-box; ;
+    position: relative;
+    left: 450px;
+    width: 100px;
+    height: 100px;
+    top: 120px;
+    border-radius: 50%;
+  }
+  
  
  }
 

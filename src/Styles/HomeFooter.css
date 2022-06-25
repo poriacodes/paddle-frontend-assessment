@@ -71,6 +71,19 @@ a:hover h4{
  
  @media screen and (max-width: 768px) {
 
+
+  .footer{
+    background-color: hsl(0, 0%, 100%, 0.1);
+   backdrop-filter: blur(1rem);
+   height: 180px;
+   width: 80%;
+   display: block;
+   margin: 70px auto 0px auto;
+   border-radius: 50% 50% 0 0/ 100% 100% 0 0; 
+   /* transform: scale(1); */
+ 
+ }
+ 
  
   
   }
@@ -88,7 +101,6 @@ a:hover h4{
        margin: 50px auto 0px auto;
        border-radius: 50% 50% 0 0/ 100% 100% 0 0; 
        /* transform: scale(1); */
-     
      }
      
      .socialMedia{
